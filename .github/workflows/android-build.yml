@@ -1,3 +1,4 @@
+
 name: Android Build
 on:
   push:
@@ -22,4 +23,3 @@ jobs:
       with:
         name: app-debug
         path: приложение/app/build/outputs/apk/debug/*.apk
-
