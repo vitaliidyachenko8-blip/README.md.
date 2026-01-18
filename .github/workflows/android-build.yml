@@ -1,7 +1,7 @@
 name: Android Build
 on:
   push:
-    branches: [ основной ]
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
